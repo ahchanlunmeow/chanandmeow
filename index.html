@@ -1,3 +1,40 @@
-<p>Hello world</p>
-<p>Welcome to Chan Meow's world!</p>
-<p>yeah!</p>
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </head>
+
+    <body>
+
+       <a onclick="pop()" class="btn">Show Box</a>
+
+       <div id="box">
+           <span>
+            <ion-icon name="brush-outline"></ion-icon></span>
+            <h1>Keep on drawing!</h1>
+
+            <a onclick="pop()" class="close">Close</a>
+
+       </div>
+
+       <script type="text/javascript">
+       var c = 0;
+       function pop (){
+           if (c == 0){
+               document.getElementById("box").style.display =  "block";
+               c = 1
+           }else{
+               document.getElementById("box").style.display =  "none";
+               c = 0
+           }
+       }
+       </script>
+        
+    </body>
+</html>
