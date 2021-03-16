@@ -44,3 +44,15 @@
     display: inline-block;
     border-radius: 4px;
 }
+.img-kanahei1{
+    width: 1920px;
+    height: 1080px;
+    background-image: url(img/kanahei1.jpg);
+    background-size: 100%;
+    position:relative;
+    
+}
+.headline{
+    font-family: 'Montserrant', sans-serif;
+    color: #333;
+}
