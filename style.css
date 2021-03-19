@@ -49,10 +49,14 @@
     height: 1080px;
     background-image: url(img/kanahei1.jpg);
     background-size: 100%;
-    position:relative;
-    
+    position:relative;    
 }
 .headline{
     font-family: 'Montserrant', sans-serif;
-    color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+body {
+    background-color: #8aeff7;
 }
